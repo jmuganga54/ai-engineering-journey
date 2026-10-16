@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Local data and model files
+data/raw/
+data/private/
+*.sqlite3
+*.db
+models/
+chroma_db/
+
+# Operating system files
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
